@@ -4,13 +4,19 @@
   
     
     <entry>
-      <title></title>
+      <title>知识图谱学习笔记（一）</title>
       <link href="/2021/11/14/%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89/"/>
       <url>/2021/11/14/%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89/</url>
       
-        <content type="html"><![CDATA[<h1 id="知识图谱学习笔记（一）"><a href="#知识图谱学习笔记（一）" class="headerlink" title="知识图谱学习笔记（一）"></a>知识图谱学习笔记（一）</h1><h2 id="关于知识图谱："><a href="#关于知识图谱：" class="headerlink" title="关于知识图谱："></a>关于知识图谱：</h2><h3 id="知识图谱的概念："><a href="#知识图谱的概念：" class="headerlink" title="知识图谱的概念："></a>知识图谱的概念：</h3><p>知识图谱（Knowledge Graph）又称为科学知识图谱，在图书情报界称为知识域可视化或知识领域映射地图，是显示知识发展进程与结构关系的一系列各种不同的图形，用可视化技术描述知识资源及其载体，挖掘、分析、构建、绘制和显示知识及它们之间的相互联系<br>“知识图谱本质上是语义网络（Semantic Network）的知识库”。</p><h2 id="知识图谱的主要研究内容："><a href="#知识图谱的主要研究内容：" class="headerlink" title="知识图谱的主要研究内容："></a>知识图谱的主要研究内容：</h2><h3 id="1-知识表示"><a href="#1-知识表示" class="headerlink" title="1.知识表示"></a>1.知识表示</h3><p>以结构化的形式描述客观世界的概念，实体，及其关系。通常是基于RDF规范的三元组知识表示形式。</p><h3 id="2-构建知识库"><a href="#2-构建知识库" class="headerlink" title="2.构建知识库"></a>2.构建知识库</h3><p>将知识从非结构化、半结构化的数据中提取出来，包括命名实体识别（NER）、命名实体的链接与关系的抽取。</p><h3 id="3-知识推理"><a href="#3-知识推理" class="headerlink" title="3.知识推理"></a>3.知识推理</h3><p>从给定的知识图谱中推导出新的实体与实体之间的关系</p><h3 id="4-知识应用"><a href="#4-知识应用" class="headerlink" title="4.知识应用"></a>4.知识应用</h3><p>自动问答技术、自然语言处理等</p><h2 id="关于知识表示："><a href="#关于知识表示：" class="headerlink" title="关于知识表示："></a>关于知识表示：</h2><p>指计算机表达知识的数据结构，涉及知识获取、知识清洗、知识提取等。<br>表示方法通常有基于逻辑的知识表示、产生式表示方法、语义网络表示方法、框架表示方法以及脚本知识表示方法等。</p><h2 id="知识推理"><a href="#知识推理" class="headerlink" title="知识推理"></a>知识推理</h2><p>根据已有的知识图谱中的事实或者关系推断出新的事实与关系，一般是考察实体、关系和图谱结构三个方面的信息特征。</p><h2 id="知识存储"><a href="#知识存储" class="headerlink" title="知识存储"></a>知识存储</h2><p>知识图谱的知识存储一般是采用图形数据库进行存储，主要有两种图数据模型：RDF图和属性图（Property Graph）<br>属性图是草根自发的，但最终得到了市场的认可，现在主要是中小企业在用。<br>查询语言：RDF图：SPARQL； 属性图：Cypher 和 Gremlin<br>常见图形数据库</p><p>基于关系数据库的存储方案</p><p>主要是三元组表（3store）、水平表(DLDB)、属 性表(JENA)、垂直划分(SW-Store)、DB2RDF和六重索引(RDFX-3X、Hexastore)<br>面向RDF的三元组数据库<br>Jena RDF4J RDF-3X gStore</p><p>原生图数据库<br>Neo4j</p><p>分布式图形数据库 JanusGraph、<br>OrientDB、<br>Cayley</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="关于知识图谱："><a href="#关于知识图谱：" class="headerlink" title="关于知识图谱："></a>关于知识图谱：</h1><h2 id="知识图谱的概念："><a href="#知识图谱的概念：" class="headerlink" title="知识图谱的概念："></a>知识图谱的概念：</h2><p>知识图谱（Knowledge Graph）又称为科学知识图谱，在图书情报界称为知识域可视化或知识领域映射地图，是显示知识发展进程与结构关系的一系列各种不同的图形，用可视化技术描述知识资源及其载体，挖掘、分析、构建、绘制和显示知识及它们之间的相互联系<br>“知识图谱本质上是语义网络（Semantic Network）的知识库”。</p><h1 id="知识图谱的主要研究内容："><a href="#知识图谱的主要研究内容：" class="headerlink" title="知识图谱的主要研究内容："></a>知识图谱的主要研究内容：</h1><h2 id="1-知识表示"><a href="#1-知识表示" class="headerlink" title="1.知识表示"></a>1.知识表示</h2><p>以结构化的形式描述客观世界的概念，实体，及其关系。通常是基于RDF规范的三元组知识表示形式。</p><h2 id="2-构建知识库"><a href="#2-构建知识库" class="headerlink" title="2.构建知识库"></a>2.构建知识库</h2><p>将知识从非结构化、半结构化的数据中提取出来，包括命名实体识别（NER）、命名实体的链接与关系的抽取。</p><h2 id="3-知识推理"><a href="#3-知识推理" class="headerlink" title="3.知识推理"></a>3.知识推理</h2><p>从给定的知识图谱中推导出新的实体与实体之间的关系</p><h2 id="4-知识应用"><a href="#4-知识应用" class="headerlink" title="4.知识应用"></a>4.知识应用</h2><p>自动问答技术、自然语言处理等</p><h1 id="关于知识表示："><a href="#关于知识表示：" class="headerlink" title="关于知识表示："></a>关于知识表示：</h1><p>指计算机表达知识的数据结构，涉及知识获取、知识清洗、知识提取等。<br>表示方法通常有基于逻辑的知识表示、产生式表示方法、语义网络表示方法、框架表示方法以及脚本知识表示方法等。</p><h1 id="知识推理"><a href="#知识推理" class="headerlink" title="知识推理"></a>知识推理</h1><p>根据已有的知识图谱中的事实或者关系推断出新的事实与关系，一般是考察实体、关系和图谱结构三个方面的信息特征。</p><h1 id="知识存储"><a href="#知识存储" class="headerlink" title="知识存储"></a>知识存储</h1><p>知识图谱的知识存储一般是采用图形数据库进行存储，主要有两种图数据模型：RDF图和属性图（Property Graph）<br>属性图是草根自发的，但最终得到了市场的认可，现在主要是中小企业在用。<br>查询语言：RDF图：SPARQL； 属性图：Cypher 和 Gremlin<br>常见图形数据库</p><p>基于关系数据库的存储方案</p><p>主要是三元组表（3store）、水平表(DLDB)、属 性表(JENA)、垂直划分(SW-Store)、DB2RDF和六重索引(RDFX-3X、Hexastore)<br>面向RDF的三元组数据库<br>Jena RDF4J RDF-3X gStore</p><p>原生图数据库<br>Neo4j</p><p>分布式图形数据库 JanusGraph、<br>OrientDB、<br>Cayley</p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 知识图谱 </tag>
+            
+        </tags>
       
     </entry>
     
